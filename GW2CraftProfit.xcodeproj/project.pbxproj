@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16104A781CD70523009E8833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104A771CD70523009E8833 /* AppDelegate.swift */; };
+		16104A7D1CD70523009E8833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16104A7B1CD70523009E8833 /* Main.storyboard */; };
+		16104A7F1CD70523009E8833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16104A7E1CD70523009E8833 /* Assets.xcassets */; };
+		16104A821CD70523009E8833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16104A801CD70523009E8833 /* LaunchScreen.storyboard */; };
+		16104A8D1CD70523009E8833 /* GW2CraftProfitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104A8C1CD70523009E8833 /* GW2CraftProfitTests.swift */; };
+		16104A981CD7054E009E8833 /* APIHookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104A971CD7054E009E8833 /* APIHookup.swift */; };
+		16104A9A1CD7E24C009E8833 /* categoryTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104A991CD7E24C009E8833 /* categoryTableController.swift */; };
+		16104A9C1CD7E462009E8833 /* categoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104A9B1CD7E462009E8833 /* categoryTableViewCell.swift */; };
+		16104A9E1CD7EA63009E8833 /* productViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104A9D1CD7EA63009E8833 /* productViewController.swift */; };
+		16104AA01CD7EA81009E8833 /* productViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104A9F1CD7EA81009E8833 /* productViewCell.swift */; };
+		16104AA21CD82B0B009E8833 /* recipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104AA11CD82B0B009E8833 /* recipeViewController.swift */; };
+		16104AA41CD82B24009E8833 /* recipeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104AA31CD82B24009E8833 /* recipeViewCell.swift */; };
+		16104AA61CD8397D009E8833 /* displayHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104AA51CD8397D009E8833 /* displayHelper.swift */; };
+		16104AA81CD83B73009E8833 /* CategoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104AA71CD83B73009E8833 /* CategoryHandler.swift */; };
+		16104AAA1CD83BB5009E8833 /* RecipeProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104AA91CD83BB5009E8833 /* RecipeProduct.swift */; };
+		16104AAC1CD83C06009E8833 /* RecipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16104AAB1CD83C06009E8833 /* RecipeItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16104A891CD70523009E8833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16104A6C1CD70523009E8833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16104A731CD70523009E8833;
+			remoteInfo = GW2CraftProfit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16104A741CD70523009E8833 /* GW2CraftProfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GW2CraftProfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16104A771CD70523009E8833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16104A7C1CD70523009E8833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16104A7E1CD70523009E8833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16104A811CD70523009E8833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16104A831CD70523009E8833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16104A881CD70523009E8833 /* GW2CraftProfitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GW2CraftProfitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16104A8C1CD70523009E8833 /* GW2CraftProfitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GW2CraftProfitTests.swift; sourceTree = "<group>"; };
+		16104A8E1CD70523009E8833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16104A971CD7054E009E8833 /* APIHookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHookup.swift; sourceTree = "<group>"; };
+		16104A991CD7E24C009E8833 /* categoryTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryTableController.swift; sourceTree = "<group>"; };
+		16104A9B1CD7E462009E8833 /* categoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryTableViewCell.swift; sourceTree = "<group>"; };
+		16104A9D1CD7EA63009E8833 /* productViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productViewController.swift; sourceTree = "<group>"; };
+		16104A9F1CD7EA81009E8833 /* productViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productViewCell.swift; sourceTree = "<group>"; };
+		16104AA11CD82B0B009E8833 /* recipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipeViewController.swift; sourceTree = "<group>"; };
+		16104AA31CD82B24009E8833 /* recipeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipeViewCell.swift; sourceTree = "<group>"; };
+		16104AA51CD8397D009E8833 /* displayHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayHelper.swift; sourceTree = "<group>"; };
+		16104AA71CD83B73009E8833 /* CategoryHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHandler.swift; sourceTree = "<group>"; };
+		16104AA91CD83BB5009E8833 /* RecipeProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeProduct.swift; sourceTree = "<group>"; };
+		16104AAB1CD83C06009E8833 /* RecipeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16104A711CD70523009E8833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16104A851CD70523009E8833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16104A6B1CD70523009E8833 = {
+			isa = PBXGroup;
+			children = (
+				16104A761CD70523009E8833 /* GW2CraftProfit */,
+				16104A8B1CD70523009E8833 /* GW2CraftProfitTests */,
+				16104A751CD70523009E8833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16104A751CD70523009E8833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16104A741CD70523009E8833 /* GW2CraftProfit.app */,
+				16104A881CD70523009E8833 /* GW2CraftProfitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16104A761CD70523009E8833 /* GW2CraftProfit */ = {
+			isa = PBXGroup;
+			children = (
+				16104A771CD70523009E8833 /* AppDelegate.swift */,
+				16104A971CD7054E009E8833 /* APIHookup.swift */,
+				16104AAB1CD83C06009E8833 /* RecipeItem.swift */,
+				16104AA91CD83BB5009E8833 /* RecipeProduct.swift */,
+				16104AA71CD83B73009E8833 /* CategoryHandler.swift */,
+				16104AA51CD8397D009E8833 /* displayHelper.swift */,
+				16104A7B1CD70523009E8833 /* Main.storyboard */,
+				16104AA31CD82B24009E8833 /* recipeViewCell.swift */,
+				16104AA11CD82B0B009E8833 /* recipeViewController.swift */,
+				16104A9D1CD7EA63009E8833 /* productViewController.swift */,
+				16104A9F1CD7EA81009E8833 /* productViewCell.swift */,
+				16104A991CD7E24C009E8833 /* categoryTableController.swift */,
+				16104A9B1CD7E462009E8833 /* categoryTableViewCell.swift */,
+				16104A7E1CD70523009E8833 /* Assets.xcassets */,
+				16104A801CD70523009E8833 /* LaunchScreen.storyboard */,
+				16104A831CD70523009E8833 /* Info.plist */,
+			);
+			path = GW2CraftProfit;
+			sourceTree = "<group>";
+		};
+		16104A8B1CD70523009E8833 /* GW2CraftProfitTests */ = {
+			isa = PBXGroup;
+			children = (
+				16104A8C1CD70523009E8833 /* GW2CraftProfitTests.swift */,
+				16104A8E1CD70523009E8833 /* Info.plist */,
+			);
+			path = GW2CraftProfitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16104A731CD70523009E8833 /* GW2CraftProfit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16104A911CD70523009E8833 /* Build configuration list for PBXNativeTarget "GW2CraftProfit" */;
+			buildPhases = (
+				16104A701CD70523009E8833 /* Sources */,
+				16104A711CD70523009E8833 /* Frameworks */,
+				16104A721CD70523009E8833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GW2CraftProfit;
+			productName = GW2CraftProfit;
+			productReference = 16104A741CD70523009E8833 /* GW2CraftProfit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16104A871CD70523009E8833 /* GW2CraftProfitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16104A941CD70523009E8833 /* Build configuration list for PBXNativeTarget "GW2CraftProfitTests" */;
+			buildPhases = (
+				16104A841CD70523009E8833 /* Sources */,
+				16104A851CD70523009E8833 /* Frameworks */,
+				16104A861CD70523009E8833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16104A8A1CD70523009E8833 /* PBXTargetDependency */,
+			);
+			name = GW2CraftProfitTests;
+			productName = GW2CraftProfitTests;
+			productReference = 16104A881CD70523009E8833 /* GW2CraftProfitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16104A6C1CD70523009E8833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Callum Grant";
+				TargetAttributes = {
+					16104A731CD70523009E8833 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					16104A871CD70523009E8833 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 16104A731CD70523009E8833;
+					};
+				};
+			};
+			buildConfigurationList = 16104A6F1CD70523009E8833 /* Build configuration list for PBXProject "GW2CraftProfit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16104A6B1CD70523009E8833;
+			productRefGroup = 16104A751CD70523009E8833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16104A731CD70523009E8833 /* GW2CraftProfit */,
+				16104A871CD70523009E8833 /* GW2CraftProfitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16104A721CD70523009E8833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16104A821CD70523009E8833 /* LaunchScreen.storyboard in Resources */,
+				16104A7F1CD70523009E8833 /* Assets.xcassets in Resources */,
+				16104A7D1CD70523009E8833 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16104A861CD70523009E8833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16104A701CD70523009E8833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16104AAC1CD83C06009E8833 /* RecipeItem.swift in Sources */,
+				16104A9E1CD7EA63009E8833 /* productViewController.swift in Sources */,
+				16104A781CD70523009E8833 /* AppDelegate.swift in Sources */,
+				16104AA41CD82B24009E8833 /* recipeViewCell.swift in Sources */,
+				16104A9C1CD7E462009E8833 /* categoryTableViewCell.swift in Sources */,
+				16104AA21CD82B0B009E8833 /* recipeViewController.swift in Sources */,
+				16104A9A1CD7E24C009E8833 /* categoryTableController.swift in Sources */,
+				16104A981CD7054E009E8833 /* APIHookup.swift in Sources */,
+				16104AA81CD83B73009E8833 /* CategoryHandler.swift in Sources */,
+				16104AA61CD8397D009E8833 /* displayHelper.swift in Sources */,
+				16104AA01CD7EA81009E8833 /* productViewCell.swift in Sources */,
+				16104AAA1CD83BB5009E8833 /* RecipeProduct.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16104A841CD70523009E8833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16104A8D1CD70523009E8833 /* GW2CraftProfitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16104A8A1CD70523009E8833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16104A731CD70523009E8833 /* GW2CraftProfit */;
+			targetProxy = 16104A891CD70523009E8833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16104A7B1CD70523009E8833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16104A7C1CD70523009E8833 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16104A801CD70523009E8833 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16104A811CD70523009E8833 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16104A8F1CD70523009E8833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16104A901CD70523009E8833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16104A921CD70523009E8833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GW2CraftProfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GW2CraftProfit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16104A931CD70523009E8833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GW2CraftProfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GW2CraftProfit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16104A951CD70523009E8833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GW2CraftProfitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GW2CraftProfitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GW2CraftProfit.app/GW2CraftProfit";
+			};
+			name = Debug;
+		};
+		16104A961CD70523009E8833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GW2CraftProfitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GW2CraftProfitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GW2CraftProfit.app/GW2CraftProfit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16104A6F1CD70523009E8833 /* Build configuration list for PBXProject "GW2CraftProfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16104A8F1CD70523009E8833 /* Debug */,
+				16104A901CD70523009E8833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16104A911CD70523009E8833 /* Build configuration list for PBXNativeTarget "GW2CraftProfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16104A921CD70523009E8833 /* Debug */,
+				16104A931CD70523009E8833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16104A941CD70523009E8833 /* Build configuration list for PBXNativeTarget "GW2CraftProfitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16104A951CD70523009E8833 /* Debug */,
+				16104A961CD70523009E8833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16104A6C1CD70523009E8833 /* Project object */;
+}
